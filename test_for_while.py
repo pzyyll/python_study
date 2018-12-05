@@ -1,3 +1,5 @@
+# -*- coding: utf_8 -*-
+
 # 范围 for 基本用法
 
 # 打印 [0, 9]
@@ -37,3 +39,13 @@ while n > 0:
     print(n, end=' ')
     n -= 1
 print("end.")
+
+
+# for 枚举遍历 (k, v)
+
+for k, v in enumerate(range(10)):
+    print(k, v)
+
+wdict = {"a": 1, "b": 2, "c": 3}
+for k, v in wdict.items():
+    print(k, v)
