@@ -49,3 +49,13 @@ for k, v in enumerate(range(10)):
 wdict = {"a": 1, "b": 2, "c": 3}
 for k, v in wdict.items():
     print(k, v)
+
+
+# zip() 使用, 组合同 idx 项，同时遍历多个 list
+
+lista = [1, 2, 3, 4]
+listb = ['a', 'b', 'c', 'd']
+listc = ['x', 'xx', 'xxx']
+
+for x, y, z in zip(lista, listb, listc):
+    print(x, y, z)

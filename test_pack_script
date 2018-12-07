@@ -1,0 +1,5 @@
+
+import test_pack
+from test_pack.test_func import test_func
+
+test_func()
